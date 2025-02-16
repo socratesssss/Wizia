@@ -24,7 +24,7 @@ function Blog() {
     return (
         <section className='md:px-16 py-18 md:py-20 px-4 '>
 
-            <div className='md:grid gap-10  flex flex-col md:grid-cols-3 mx-6 md:mx-0 '>
+            <div className='md:grid gap-10  flex flex-col md:grid-cols-3  md:mx-0 '>
                 {
                     BlogInfo.map((info) => (
                         <div className="flex flex-col  items-start gap-4">

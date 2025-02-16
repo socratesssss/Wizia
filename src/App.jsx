@@ -7,6 +7,7 @@ import Hero from './Component/Hero';
 import Branding from './Component/Branding';
 import Blog from './Blog';
 import Train from './Component/Train';
+import GetStarted from './Component/GetStarted';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 <Branding/>
 <Blog/>
 <Train/>
+<GetStarted/>
 
     </section>
   )
