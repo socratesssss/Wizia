@@ -6,7 +6,7 @@ function Branding() {
     const img =["BackHub logo.png","CableLabs logo.png","DBS logo.png","EasyEuro logo.png","AMD logo.png"]
     
   return (
- <section className='bg-[#07292F]  py-10 items-center justify-center  md:flex md:flex-col px-4 md:px-16'>
+ <section className='bg-[#07292F]  py-10 items-center max-w-[1400px] justify-center  md:flex md:flex-col px-4 md:px-16'>
 
 <p className='text-[#0FF1F6] text-center uppercase'>Our trusted partners</p>
 

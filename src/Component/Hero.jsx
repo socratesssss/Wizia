@@ -4,7 +4,7 @@ import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
 
 function Hero() {
     return (
-        <section className='bg-[url("Img2.png")] md:bg-[url("Img.png")] mt-16 md:mt-20 w-full text-white pt-22 pb-20 px-4 md:px-16'>
+        <section className='bg-[url("Img2.png")] md:bg-[url("Img.png")] mt-16 md:mt-20 w-full max-w-[1400px] text-white pt-22 pb-20 px-4 md:px-16'>
 
 
             <div className='flex w-full '>
