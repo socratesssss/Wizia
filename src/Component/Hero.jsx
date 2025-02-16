@@ -4,6 +4,7 @@ import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
 import { motion } from "framer-motion";
 
 function Hero() {
+    const shadow = {textShadow: "2px 2px 10px rgba(0, 255, 246, 0.5)" }
     return (
         <section className='bg-[url("Img2.png")] md:bg-[url("Img.png")] mt-16 md:mt-20 w-full max-w-[1400px] text-white pt-22 pb-20 px-4 md:px-16'>
 
@@ -16,7 +17,7 @@ function Hero() {
                 <div className='flex  flex-col justify-center items-center'>
                     <motion.h4 initial={{ opacity: 0, x: 100 }} 
   animate={{ opacity: 1, x: 0 }} 
-  transition={{ duration: 0.5 }} className='text-[#0FF1F6] text-base md:text-2xl font-normal'>AI SDRs (aiDRs)</motion.h4>
+  transition={{ duration: 0.5 }} className='text-[#0FF1F6] text-base md:text-2xl font-normal' style={shadow}>AI SDRs (aiDRs)</motion.h4>
                     <motion.h1 initial={{ opacity: 0, x: -100 }} 
   animate={{ opacity: 1, x: 0 }} 
   transition={{ duration: 0.5 }} className='md:text-6xl/20 text-5xl/16 font-bold w-full md:w-sm mt-6 '>More leads, less people.</motion.h1>
