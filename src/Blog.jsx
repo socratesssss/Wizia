@@ -34,7 +34,7 @@ function Blog() {
                             </div>
                             <div className="text-white md:mt-0">
                                 <h4 className="text-lg md:text-2xl font-semibold">{info.title}</h4>
-                                <p className="md:mt-2 mt-3 md:text-xl text-md font-thin">
+                                <p className="md:mt-2 text-gray-400 mt-3 md:text-xl text-md font-thin">
                                     {info.description}
                                 </p>
                             </div>

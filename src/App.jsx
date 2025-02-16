@@ -6,6 +6,7 @@ import DrawerAppBar from './Component/Navbar';
 import Hero from './Component/Hero';
 import Branding from './Component/Branding';
 import Blog from './Blog';
+import Train from './Component/Train';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 <Hero/>
 <Branding/>
 <Blog/>
+<Train/>
 
     </section>
   )
