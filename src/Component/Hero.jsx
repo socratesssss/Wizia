@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Hero() {
     const shadow = {textShadow: "2px 2px 10px rgba(0, 255, 246, 0.5)" }
     return (
-        <section className='bg-[url("Img2.png")] md:bg-[url("Img.png")] mt-16 md:mt-20 w-full max-w-[1400px] text-white pt-22 pb-20 px-4 md:px-16'>
+        <section className='bg-[url("/Img2.png")] md:bg-[url("/Img.png")] mt-16 md:mt-20 w-full max-w-[1400px] text-white pt-22 pb-20 px-4 md:px-16'>
 
 
             <div className='flex w-full '>
