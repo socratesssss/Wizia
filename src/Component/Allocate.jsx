@@ -15,8 +15,8 @@ const ratioDetails = [
 
 
   return (
-    <section className='bg-[#07292f]    rounded-3xl  md:mx-8 mx-4 '>
-        <div className='md:bg-[url("/Frame18.png")] rounded-3xl bg-[url("/bg1.png")] md:py-20 py-10 bg-no-repeat bg-contain bg-right-bottom'>
+    <section className='bg-[#07292f]   rounded-3xl  md:mx-8 mx-4  '>
+        <div className=' rounded-3xl bg-[url("/bg1.png")] md:bg-cover md:bg-[url("/Frame18.png")] md:py-20 py-10 bg-no-repeat bg-contain  bg-right-bottom'>
 
 <div className=' md:mx-8 mx-4'>
     <h1 className='md:w-[500px] md:text-[32px]  text-[28px] font-semibold text-white'>Allocate effort where your reps make an inpact.</h1>

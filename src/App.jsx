@@ -10,6 +10,7 @@ import Train from './Component/Train';
 import GetStarted from './Component/GetStarted';
 import Footer from './Component/Footer';
 import Allocate from './Component/Allocate';
+import SlideContent from './Component/SlideContent';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 <Branding/>
 <Blog/>
 <Train/>
+<SlideContent/>
 <Allocate/>
 <GetStarted/>
 <Footer/>
