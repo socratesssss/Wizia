@@ -6,7 +6,7 @@ function Train() {
   return (
     <section>
     <div 
-      className="md:bg-[url('Frame17.png')] md:mx-8 mx-4 rounded-3xl bg-cover  items-center md:bg-center md:py-20 flex flex-col text-white p-6 bg-[url('bg.png')]"
+      className="md:bg-[url('/Frame17.png')] md:mx-8 mx-4 rounded-3xl bg-cover  items-center md:bg-center md:py-20 flex flex-col text-white p-6 bg-[url('/bg.png')]"
     >
       <div className=''>
       <h3 className='md:w-3/5 md:text-4xl text-2xl font-light md:font-semibold '>Train your aiDR on your...</h3>
