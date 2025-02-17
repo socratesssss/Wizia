@@ -9,6 +9,7 @@ import Blog from './Blog';
 import Train from './Component/Train';
 import GetStarted from './Component/GetStarted';
 import Footer from './Component/Footer';
+import Allocate from './Component/Allocate';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 <Branding/>
 <Blog/>
 <Train/>
+<Allocate/>
 <GetStarted/>
 <Footer/>
 
